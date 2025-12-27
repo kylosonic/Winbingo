@@ -1,4 +1,3 @@
-
 export enum View {
   LOBBY = 'GAME',
   SCORES = 'SCORES',
@@ -11,7 +10,7 @@ export enum View {
 
 export interface Player {
   id: string;
-  name: -string;
+  name: string; // <--- Fixed line
   selectedNumbers: number[];
 }
 
